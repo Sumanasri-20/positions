@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    background-color: aliceblue;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    scrollbar-width: 10px;
+
+}
+.container img{
+    width: 100%;
+    margin-top: 0;
+}
+.container .text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    font-size: 50px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background-color: lightgoldenrodyellow;
+}
+.container .div{
+    display: inline-block;
+    padding-left: 30px;
+}
+.brand{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1000px;
+}
+li{
+    margin-left: 3rem;
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 1em;
+}
